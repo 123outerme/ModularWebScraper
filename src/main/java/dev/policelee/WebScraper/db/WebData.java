@@ -1,4 +1,4 @@
-package webScraper.db;
+package dev.policelee.WebScraper.db;
 
 public class WebData
 {

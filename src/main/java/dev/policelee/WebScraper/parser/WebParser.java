@@ -1,4 +1,4 @@
-package webScraper.parser;
+package dev.policelee.WebScraper.parser;
 
 import org.jsoup.nodes.Document;
 

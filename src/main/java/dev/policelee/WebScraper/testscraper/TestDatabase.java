@@ -1,27 +1,38 @@
-package webScraper.wizwiki;
+package dev.policelee.WebScraper.testscraper;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import webScraper.db.ScraperDatabase;
+import dev.policelee.WebScraper.db.ScraperDatabase;
 
-public class WizWikiDatabase extends ScraperDatabase<WizWikiData> {
-	public WizWikiDatabase()
+public class TestDatabase extends ScraperDatabase<TestData> {
+	public TestDatabase()
 	{
-		super();
+		super(null);
 		// TODO Auto-generated constructor stub
 	}
 
 	public ResultSet getData(String url) throws SQLException
 	{
+		/*
 		PreparedStatement stmt = this.conn.prepareStatement("");  //TODO
 		return stmt.executeQuery();
+		//*/
+		return null;
 	}
 
-	public void submitData(WizWikiData data) throws SQLException
+	public void submitData(TestData data) throws SQLException
 	{
+		/*
 		PreparedStatement stmt = this.conn.prepareStatement("");  //TODO
 		stmt.executeQuery();
+		//*/
+	}
+
+	@Override
+	protected void createDatabase() throws SQLException
+	{
+		//nothing
 	}
 }
