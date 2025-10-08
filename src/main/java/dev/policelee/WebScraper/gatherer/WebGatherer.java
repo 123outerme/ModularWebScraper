@@ -52,7 +52,7 @@ public class WebGatherer
 		return Jsoup.parse(htmlText);  //use headless browser or GET request
 		//*/
 		
-		String API_KEY = "6fcd715b-2f81-4eb2-aedc-6714945a26e8";
+		String API_KEY = "<API_KEY>";
 		
 		String requestEndpoint = url; //URLEncoder.encode(url, StandardCharsets.UTF_8.toString());
 		//System.out.println(requestEndpoint);
